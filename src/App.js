@@ -29,6 +29,12 @@ class App extends React.Component{
                     img: "https://e-mediatheque.sqy.fr/Ils/digitalCollection/DigitalCollectionThumbnailHandler.ashx?documentId=2859979&size=LARGE&fallback=https%3A%2F%2Fe-mediatheque.sqy.fr%2Fui%2Fskins%2Fdefault%2Fportal%2Ffront%2Fimages%2FGeneral%2FDocType%2FAUVI_LARGE.png",
                     details: "Film",
                     content: "Ubi est gratis demissio? Ubi est gratis demissio? Ubi est gratis demissio? Ubi est gratis demissio? "
+                },
+                {
+                    title: "The Social Network",
+                    img: "https://e-mediatheque.sqy.fr/Ils/digitalCollection/DigitalCollectionThumbnailHandler.ashx?documentId=2859979&size=LARGE&fallback=https%3A%2F%2Fe-mediatheque.sqy.fr%2Fui%2Fskins%2Fdefault%2Fportal%2Ffront%2Fimages%2FGeneral%2FDocType%2FAUVI_LARGE.png",
+                    details: "Film",
+                    content: "Ubi est gratis demissio? Ubi est gratis demissio? Ubi est gratis demissio? Ubi est gratis demissio? "
                 }
 
             ],
