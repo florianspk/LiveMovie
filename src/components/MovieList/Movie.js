@@ -1,14 +1,13 @@
-
 import React from "react";
+import Style from './Movie.module.scss'
 
-export default class MoviesElement extends React.Component{
+export default class Movie extends React.Component{
     mousseEnter = () => {
         this.props.updateSelectedMovie(this.props.movie.title)
     }
     render() {
         return (
-            <div onMouseEnter={this.mousseEnter} className="w-50 p-2">
-                <div className="border d-flex">
+                <div onMouseEnter={this.mousseEnter} className={"border d-flex d-row " + Style.container }>
                     <img width="150" height="200" alt={this.props.movie.title} src={this.props.movie.img}  />
                     <div className="flex-fill d-flex flex-column p-3">
                         <h5>{this.props.movie.title}</h5>
@@ -17,8 +16,6 @@ export default class MoviesElement extends React.Component{
                         <span>{this.props.movie.content}</span>
                     </div>
                 </div>
-
-            </div>
         )
 
     }
