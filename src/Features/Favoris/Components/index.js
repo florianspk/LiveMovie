@@ -1,0 +1,1 @@
+export {default as FavoriList} from './FavorisList/FavoriList'
